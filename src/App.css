@@ -48,7 +48,7 @@ th {
 /* nav */
 nav {
   background-color: #5465FF;
-  padding: 20px 50px;
+  padding: 5px 30px 5px 0px;
 }
 
 .navTop {
@@ -58,10 +58,8 @@ nav {
 }
 
 .navItem1 {
-
   color: white;
-  padding: 40px 32px;
-
+  padding: 0px 40px 20px 30px;
   font-family: sans-serif;
 }
 
@@ -75,5 +73,4 @@ nav {
 
 .prefrontpage {
   color: white;
-
 }
