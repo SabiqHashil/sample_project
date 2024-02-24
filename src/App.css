@@ -46,41 +46,34 @@ th {
 
 
 /* nav */
-.logo {
-  width: 50px;
-  height: 50px;
-  border-radius: 30px;
-}
-
-.alogo {
-  margin: 25px;
-  float: right;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+nav {
   background-color: #5465FF;
+  padding: 20px 50px;
 }
 
-li {
-  float: left;
+.navTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-li a {
-  display: block;
+.navItem1 {
+
   color: white;
-  text-align: center;
-  padding: 30px 18px;
-  text-decoration: none;
+  padding: 40px 32px;
+
+  font-family: sans-serif;
 }
 
-li a:hover:not(.active) {
-  background-color: #111;
+.adminicon {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  border-radius: 40px;
 }
 
-.active {
-  background-color: #04AA6D;
+
+.prefrontpage {
+  color: white;
+
 }
