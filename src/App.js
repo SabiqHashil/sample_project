@@ -123,7 +123,7 @@ function App() {
               <td>{val.gpoints}</td>
               <td>{val.credit}</td>
               <td>{val.cpoint}</td>
-              <td>{val.status}</td>
+              <td class="pass">{val.status}</td>
             </tr>
           );
         })}
