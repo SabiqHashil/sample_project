@@ -32,3 +32,13 @@ th, td {
 th {
   background-color: #f2f2f2;
 }
+
+.grid {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sgpa, .grade {
+  padding: 10px;
+  border: 1px solid #ccc;
+}

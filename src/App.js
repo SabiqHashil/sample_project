@@ -12,6 +12,11 @@ const data = [
     assignment: "pass",
     internal: "pass",
     total: "100%",
+    gobtained: "A+",
+    gpoints: "8",
+    credit: "6.8",
+    cpoint: "54.5",
+    status: "Passed",
   },
   {
     si: "2",
@@ -21,6 +26,11 @@ const data = [
     assignment: "pass",
     internal: "pass",
     total: "100%",
+    gobtained: "A+",
+    gpoints: "8",
+    credit: "6.8",
+    cpoint: "54.5",
+    status: "Passed",
   },
   {
     si: "3",
@@ -30,6 +40,11 @@ const data = [
     assignment: "pass",
     internal: "pass",
     total: "100%",
+    gobtained: "A+",
+    gpoints: "8",
+    credit: "6.8",
+    cpoint: "54.5",
+    status: "Passed",
   },
   {
     si: "4",
@@ -39,6 +54,11 @@ const data = [
     assignment: "pass",
     internal: "pass",
     total: "100%",
+    gobtained: "A+",
+    gpoints: "8",
+    credit: "6.8",
+    cpoint: "54.5",
+    status: "Passed",
   },
   {
     si: "5",
@@ -48,6 +68,11 @@ const data = [
     assignment: "pass",
     internal: "pass",
     total: "100%",
+    gobtained: "A+",
+    gpoints: "8",
+    credit: "6.8",
+    cpoint: "54.5",
+    status: "Passed",
   },
   {
     si: "6",
@@ -57,13 +82,17 @@ const data = [
     assignment: "pass",
     internal: "pass",
     total: "100%",
+    gobtained: "A+",
+    gpoints: "8",
+    credit: "6.8",
+    cpoint: "54.5",
+    status: "Passed",
   },
 ];
 
 function App() {
   return (
     <div className="App">
-
       <h2>Semester VI</h2>
       <table className="center">
         <tr>
@@ -74,6 +103,11 @@ function App() {
           <th>Assignment</th>
           <th>Internal Exam</th>
           <th>Total</th>
+          <th>Grade Obtained</th>
+          <th>Grade Points</th>
+          <th>Credit</th>
+          <th>Credit Ppoint (C x G)</th>
+          <th>Status</th>
         </tr>
         {data.map((val, key) => {
           return (
@@ -85,12 +119,20 @@ function App() {
               <td>{val.assignment}</td>
               <td>{val.internal}</td>
               <td>{val.total}</td>
+              <td>{val.gobtained}</td>
+              <td>{val.gpoints}</td>
+              <td>{val.credit}</td>
+              <td>{val.cpoint}</td>
+              <td>{val.status}</td>
             </tr>
           );
         })}
       </table>
 
-      
+      <div class="grid">
+        <h3 class="sgpa">SGPA: 9.8%</h3>
+        <h3 class="grade">Grade: O+</h3>
+      </div>
     </div>
   );
 }
