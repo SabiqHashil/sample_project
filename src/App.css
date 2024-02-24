@@ -1,9 +1,4 @@
-.App{
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.center{
+.center {
   margin-top: 50px;
 }
 
@@ -23,7 +18,8 @@ table {
   border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
@@ -33,7 +29,7 @@ th {
   background-color: #6495ED;
 }
 
-.pass{
+.pass {
   background-color: #32CD32;
 }
 
@@ -42,7 +38,49 @@ th {
   justify-content: space-evenly;
 }
 
-.sgpa, .grade {
+.sgpa,
+.grade {
   padding: 10px;
   border: 1px solid #ccc;
+}
+
+
+/* nav */
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.alogo {
+  margin: 25px;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5465FF;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 18px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
 }
